@@ -5,4 +5,4 @@
 </div>
 
 
-[Live Demo](https://praveenorugantitech-quiz.firebaseapp.com/)
+[Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-quiz-reactjs/)
