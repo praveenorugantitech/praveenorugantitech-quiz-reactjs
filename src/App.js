@@ -37,8 +37,8 @@ function App() {
       <section className='quiz'>
 
         <p className='correct-answers'>
-          Total Questions : {questions.length} &nbsp;
-          Question: {index} &nbsp;
+
+          Question {index} of {questions.length} &nbsp;
           Correct : {correct} &nbsp;
 
         </p>
