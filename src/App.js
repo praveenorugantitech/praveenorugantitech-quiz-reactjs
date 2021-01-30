@@ -38,7 +38,7 @@ function App() {
 
         <p className='correct-answers'>
 
-          Question {index} of {questions.length} &nbsp;
+          Question {index+1} of {questions.length} &nbsp;
           Correct : {correct} &nbsp;
 
         </p>
