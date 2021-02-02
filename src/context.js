@@ -17,7 +17,7 @@ const AppProvider = ({ children }) => {
     setLoading(true);
     setWaiting(false);
     const response = await axios(
-      `https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-test/master/QuizData/${category}.json`
+      `https://60193f30fa0b1f0017accb3c.mockapi.io/api/v1/${category.toLowerCase()}-quiz`
     ).catch((err) => alert(`${category} Challenge is not available at the moment`));
     if (response) {
       const data = response.data.sort(() => Math.random() - 0.5);
